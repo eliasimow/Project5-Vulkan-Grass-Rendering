@@ -34,4 +34,9 @@ We need to add a recovery force, which will pull our grass towards its initial p
 
 <img width="1686" height="744" alt="image" src="https://github.com/user-attachments/assets/9407a4e6-1b24-4d0a-8557-09ef719a7988" />
 
+Lastly, we should add a wind effect, so our blades flow back and forth. I used simplex noise for my wind, sourced from Ashima Arts / Stefan Gustavson. We choose an arbitrary wind direction in the xz plane, and push our blades in that direction to a degree corresponding to the blade's default direction and a noise value sampled over time. Finally, we have a windy grass field!
+
+![output](https://github.com/user-attachments/assets/5ef28fd0-da90-4f5b-b331-cda481814abb)
+
+
 
