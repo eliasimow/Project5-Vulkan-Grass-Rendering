@@ -38,5 +38,14 @@ Lastly, we should add a wind effect, so our blades flow back and forth. I used s
 
 ![output](https://github.com/user-attachments/assets/5ef28fd0-da90-4f5b-b331-cda481814abb)
 
+## Performance
+
+### Culling Methods
+
+![Recording 2025-10-28 221452](https://github.com/user-attachments/assets/71cb85e1-9528-44c4-8105-bdf56f944837)
+
+
+We add three culls for performance. The first is a distance cull, such that no blade over a certain threshold should be drawn. The second is a frustrum cull, such that no blade outside the camera view should be drawn. The final is an orientation cull, such that no blade facing away from the camera should have its back side rendered. 
+
 
 
