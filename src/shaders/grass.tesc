@@ -49,12 +49,4 @@ void main() {
     gl_TessLevelOuter[1] = level;
     gl_TessLevelOuter[2] = level;
     gl_TessLevelOuter[3] = level;
-
-	// TODO: Set level of tesselation
-    // gl_TessLevelInner[0] = ???
-    // gl_TessLevelInner[1] = ???
-    // gl_TessLevelOuter[0] = ???
-    // gl_TessLevelOuter[1] = ???
-    // gl_TessLevelOuter[2] = ???
-    // gl_TessLevelOuter[3] = ???
 }
